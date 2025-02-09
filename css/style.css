@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+
+@media (min-width: 992px){
+  h2,p {
+      font-size: 2.5em;
+      width:auto;
+  }
+  h1{
+      font-size:7.5em;
+  }
+}
 h1{
     color: #333;
     text-align: center;
@@ -27,7 +37,7 @@ h1{
     top:-35px;
         right: 0px;
       width: 200px;
-     padding:3px;
+     padding:5px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     font-weight: bold;
@@ -39,27 +49,17 @@ h1{
   }
 
   .title2{
-    background-color: maroon;
+    background-color: rgb(180, 31, 31);
     color: white;
   }
 
   .title3{
-    background-color: rgb(175, 175, 14);
+    background-color: rgba(219, 226, 114, 0.945);
     color: black;
   }
   
   .section {
     border: 2px solid black;
-  }
-
-@media (min-width: 992px){
-    h2,p {
-        font-size: 2.5em;
-        width:auto;
-    }
-    h1{
-        font-size:7.5em;
-    }
   }
 
     @media screen and (max-width: 991px){
@@ -68,10 +68,11 @@ h1{
         }
 
         .title1, .title2, .title3{
-          font-size: 1.5em;
+          font-size: 1em;
           width: auto;
-          top: -21px;
+          top: -15px;
           right: 0px;
+          padding: 8px;
         }
 
         h1{
